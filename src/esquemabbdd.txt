@@ -1,0 +1,16 @@
+Tablas:
+    platos:
+        nombre
+        descripcion
+        precio
+        foto(url)
+        menu (boolean para indicar si esta en el menu semanal)
+        tipo(entrante, principal, postre)
+        vegetariano (boolean)
+
+    reservas:
+        nombre      notnull
+        telefono    notnull
+        email       notnull
+        fecha       notnull
+        comentario
